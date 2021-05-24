@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+.sticker{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 232, 21);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.651);
+    padding: 10px;
+    position: relative;
+}
+
+h2{
+    margin: 0;
+}
+.deleteBut{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    /* background-image: url(delete.png); */
+    background-color: brown;
+    background-size: contain;
+    cursor: pointer;
+}
+.id{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 1.2em;
+    color: rgb(180, 0, 0);
+}
+.dateText{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-size: 0.8em;
+}
+#title{
+    resize: none;
+    background-color: rgb(255, 232, 21);
+    border: none;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    height: 1em;
+    overflow: hidden;
+    width: 100%;
+    outline: none;
+    text-decoration: underline;
+}
+.textarea{
+    resize: none;
+    flex-grow: 1;
+    background-color: rgb(255, 232, 21);
+    border: none;
+    font-family: 'Caveat', cursive;
+    outline: none;
+}
+.stickCreatePanel{
+    transition: 0.2s;
+}
+.addBut{
+    width: 6em;
+    height: 3em;
+    border-radius: 1.5em;
+    align-self: end;
+}
